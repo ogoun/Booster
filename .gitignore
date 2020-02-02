@@ -1,0 +1,54 @@
+# Bloody frontend
+node_modules
+bower_components
+
+# VSCode
+.vscode
+
+# Ignore Visual Studio files
+*.obj
+*.pdb
+*.user
+*.aps
+*.pch
+*.bin
+*.vspscc
+*_i.c
+*_p.c
+*.ncb
+*.suo
+*.tlb
+*.cache
+*.tlh
+*.bak
+*.cache
+*.ilk
+*.log
+*.lib
+*.sbr
+*.scc
+*.dbmdl
+*.nupkg
+*.p7s
+*.sln.ide
+[Bb]in
+[Dd]ebug*/
+[Oo]bj/
+[Rr]elease*/
+_ReSharper*/
+[Tt]est[Rr]esult*
+TestsResult.html
+[Bb]uild[Ll]og.*
+*.[Pp]ublish.xml
+[Tt]humbs.db
+
+# NuGet
+/packages/
+**/packages/*
+!**/packages/build/
+
+# Build
+/artifacts/
+
+.localhistory
+.vs/
